@@ -1,0 +1,52 @@
+.expertise{
+    background-image: url('../assets/expertise_image.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding: 6rem 1rem;
+}
+
+
+.animated-image {
+    position: relative;
+    overflow: hidden;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+/* Top to Bottom Animation */
+.top-to-bottom {
+    animation-name: slideInTop;
+}
+
+@keyframes slideInTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Bottom to Top Animation */
+.bottom-to-top {
+    animation-name: slideInBottom;
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    #expertise .animated-image img{
+        width: 100% !important;
+    }
+}

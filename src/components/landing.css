@@ -1,0 +1,40 @@
+.bg-image{
+    background-image: url('../assets/media_bg.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    min-height: 80vh;
+}
+
+@media screen and (max-width: 767px){
+    .bg-image{
+        min-height: 40vh;
+    }
+
+    .heading{
+        background-position: center;
+        background-size: cover;
+        width: 80% !important;
+        overflow: hidden;
+        margin-top: -10px;
+    }
+}
+
+
+.heading{
+    background-position: center;
+    background-size: cover;
+    width: 65%;
+    overflow: hidden;
+}
+
+.down-arrow{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 100%;
+    margin-left: 50%;
+    background-color: #DDA74F38;
+}

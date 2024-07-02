@@ -1,0 +1,66 @@
+/* Navbar.css */
+
+.navbar {
+    background-image: url(../assets/media_bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #333;
+    color: white;
+    position: relative;
+  }
+  
+  .logo {
+    height: 75px; /* Adjust height as needed */
+  cursor: pointer;
+  }
+  
+  .toggle-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 100%; /* Adjust based on your navbar height */
+    margin-left: -200px !important; /* Align to the right edge of the navbar */
+    width: 200px !important; /* Fixed width */
+    height: auto; /* Adjust height based on content */
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    display: block !important; /* Ensure it's not accidentally set to display: none */
+  }
+  
+  
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    width: 100%; /* Use full width of the modal */
+    padding: 10px; /* Add padding for better spacing */
+    cursor: pointer;
+    text-align: left; /* Align text to the left */
+    font-size: 1rem;
+  }
+  
+  .nav-links li:hover {
+    background-color: #DDA74F;
+  }
+  
+
+
+
+
+
+  
