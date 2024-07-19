@@ -31,7 +31,7 @@ export const Footer = () => {
                             <h3 style={{color: '#DDA74F'}}>Services</h3>
                             <div className='d-flex' style={{ flexDirection: 'column' }}>
                                 <p>Web Design</p>
-                                <p>Graphic Desin</p>
+                                <p>Graphic Design</p>
                                 <p>Web Development</p>
                                 <p>Marketing</p>
                             </div>
