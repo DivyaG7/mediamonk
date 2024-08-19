@@ -13,18 +13,18 @@ export const Footer = () => {
                 <div className='footer-content'>
                     <div className='row w-100' id='footer' style={{ textAlign: 'left' }}>
                         <div className='col-md-3 mb-5' id='foot1'>
-                            {/* <Link to='/'> */}
+                            <a href='/'>
                             <img src={logo} alt='logo' style={{ width: '100px' }} />
-                            {/* </Link> */}
+                            </a>
 
 
                         </div>
                         <div className='col-md-3 mb-4'>
                             <h3 style={{ color: '#DDA74F' }}>Usefull links</h3>
                             <div className='d-flex' style={{ flexDirection: 'column' }}>
-                                <Link to="home" smooth={true} duration={500} className='mb-3' style={{ textDecoration: 'none', color: 'white' }}>Home</Link>
-                                <Link to="about" smooth={true} duration={500} className='mb-3' style={{ textDecoration: 'none', color: 'white' }}>About Us</Link>
-                                <Link to="services" smooth={true} duration={500} className='mb-3' style={{ textDecoration: 'none', color: 'white' }}>Services</Link>
+                                <Link to="home" smooth={true} duration={500} className='mb-3' style={{ textDecoration: 'none', color: 'white', cursor: 'pointer' }}>Home</Link>
+                                <Link to="about" smooth={true} duration={500} className='mb-3' style={{ textDecoration: 'none', color: 'white', cursor: 'pointer' }}>About Us</Link>
+                                <Link to="services" smooth={true} duration={500} className='mb-3' style={{ textDecoration: 'none', color: 'white', cursor: 'pointer' }}>Services</Link>
                             </div>
                         </div>
                         <div className='col-md-3 mb-4'>
